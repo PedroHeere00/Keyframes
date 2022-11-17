@@ -1,0 +1,56 @@
+body {
+    background-color: grey;
+}
+
+.a {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: solid 2px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    left: 49%;
+    margin-top: 80px;
+}
+
+.b {
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    animation: 8s infinite;
+    animation-name: rotate;
+    left: 352px;
+    bottom: 318px;
+}
+
+@keyframes rotate {
+    0% {
+        left: 352px;
+        bottom: 318px;
+    }
+
+    25% {
+        left: 287px;
+        bottom: 374px;
+    }
+
+    50% {
+        left: 352px;
+        bottom: 447px;
+    }
+
+    75% {
+        left: 415px;
+        bottom: 374px;
+    }
+
+    100% {
+        left: 352px;
+        bottom: 318px;
+    }
+}
